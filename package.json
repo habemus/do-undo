@@ -1,8 +1,8 @@
 {
-  "name": "test-lifecycle",
+  "name": "do-undo",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.4.1"
+  },
+  "devDependencies": {
+    "should": "^9.0.2"
   }
 }
